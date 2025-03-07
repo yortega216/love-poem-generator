@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <h1>AI Love Poem Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-generator-form">
             <input type="text" placeholder="Enter topic of the Love Poem"
             autofocus
             required
@@ -21,23 +22,7 @@
             />
             <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem">
-            Love and Friendship 
-            <br />
-            Love is like the wild rose-briar,
-            Friendship like the holly-tree—
-            The holly is dark when the rose-briar blooms
-            But which will bloom most constantly?
-
-            The wild rose-briar is sweet in spring,
-            Its summer blossoms scent the air;
-            Yet wait till winter comes again
-            And who will call the wild-briar fair?
-
-            Then scorn the silly rose-wreath now
-            And deck thee with the holly’s sheen,
-            That when December blights thy brow
-            He still may leave thy garland green.
+        <div class="poem" id="poem">
         </div>
     </main>
     <footer>
